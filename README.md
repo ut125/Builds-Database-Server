@@ -8,14 +8,14 @@
 
 ## 在第一個終端機執行 
 1. 移動到專案目錄<br>
-2. 使用 Maven 編譯: 'mvnw clean package'<br>
-3. 運行 DBServer: 'java -cp target\classes edu.uob.DBServer'<br>
-4. 等待終端機顯示: Server listening on port 8888<br>
+2. 使用 Maven 編譯: `mvnw clean package` <br>
+3. 運行 DBServer: `java -cp target\classes edu.uob.DBServer` <br>
+4. 等待終端機顯示: `Server listening on port 8888` <br>
 
 ## 在第二個終端機執行
 1. 移動到專案目錄<br>
-2. 運行 DBClient: 'java -cp target\classes edu.uob.DBClient'<br>
-3. 在客戶端輸入 SQL 指令測試<br>
+2. 運行 DBClient: `java -cp target\classes edu.uob.DBClient`<br>
+3. 在客戶端輸入 SQL 指令測試 <br>
 
 **第一個終端機**（`DBServer`）會顯示伺服器啟動和請求的處理記錄。<br>
 **第二個終端機**（`DBClient`）可以輸入 SQL 查詢並獲得結果。<br>
